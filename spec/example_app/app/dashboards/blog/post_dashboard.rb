@@ -7,7 +7,7 @@ module Blog
       created_at: Field::DateTime,
       updated_at: Field::DateTime,
       title: Field::String,
-      published_at: Field::DateTime,
+      published_at: Field::Time.with_options(format: "%H:%m"),
       body: Field::Text,
     }
 

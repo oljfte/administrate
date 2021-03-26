@@ -28,3 +28,6 @@ en:
     search:
       clear: Clear search
       label: Search %{resource}
+  time:
+    formats:
+      default: "%I:%M%p"
